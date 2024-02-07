@@ -1,0 +1,242 @@
+<?php
+
+return [
+    'common' => [
+        'actions' => 'Actions',
+        'create' => 'Create',
+        'edit' => 'Edit',
+        'update' => 'Update',
+        'new' => 'New',
+        'cancel' => 'Cancel',
+        'attach' => 'Attach',
+        'detach' => 'Detach',
+        'save' => 'Save',
+        'delete' => 'Delete',
+        'delete_selected' => 'Delete selected',
+        'search' => 'Search...',
+        'back' => 'Back to Index',
+        'are_you_sure' => 'Are you sure?',
+        'no_items_found' => 'No items found',
+        'created' => 'Successfully created',
+        'saved' => 'Saved successfully',
+        'removed' => 'Successfully removed',
+    ],
+
+    'employees' => [
+        'name' => 'Employees',
+        'index_title' => 'Employees List',
+        'new_title' => 'New Employee',
+        'create_title' => 'Create Employee',
+        'edit_title' => 'Edit Employee',
+        'show_title' => 'Show Employee',
+        'inputs' => [
+            'name' => 'Name',
+            'address' => 'Address',
+            'city' => 'City',
+            'state' => 'State',
+            'zipcode' => 'Zipcode',
+            'telephone' => 'Telephone',
+            'dob' => 'Dob',
+            'user_id' => 'User',
+        ],
+    ],
+
+    'users' => [
+        'name' => 'Users',
+        'index_title' => 'Users List',
+        'new_title' => 'New User',
+        'create_title' => 'Create User',
+        'edit_title' => 'Edit User',
+        'show_title' => 'Show User',
+        'inputs' => [
+            'name' => 'Name',
+            'email' => 'Email',
+            'password' => 'Password',
+        ],
+    ],
+
+    'case1s' => [
+        'name' => 'Case1s',
+        'index_title' => 'Case1s List',
+        'new_title' => 'New Case1',
+        'create_title' => 'Create Case1',
+        'edit_title' => 'Edit Case1',
+        'show_title' => 'Show Case1',
+        'inputs' => [
+            'partyID' => 'Party Id',
+            'Action' => 'Action',
+            'courtID' => 'Court Id',
+            'judgeID' => 'Judge Id',
+            'start_date' => 'Start Date',
+            'end_date' => 'End Date',
+            'caseTyep' => 'Case Tyep',
+            'caseStatus' => 'Case Status',
+        ],
+    ],
+
+    'parties' => [
+        'name' => 'Parties',
+        'index_title' => 'Parties List',
+        'new_title' => 'New Party',
+        'create_title' => 'Create Party',
+        'edit_title' => 'Edit Party',
+        'show_title' => 'Show Party',
+        'inputs' => [
+            'name' => 'Name',
+            'address' => 'Address',
+            'phone' => 'Phone',
+            'attonery' => 'Attonery',
+            'case1_id' => 'Case1',
+        ],
+    ],
+
+    'courts' => [
+        'name' => 'Courts',
+        'index_title' => 'Courts List',
+        'new_title' => 'New Court',
+        'create_title' => 'Create Court',
+        'edit_title' => 'Edit Court',
+        'show_title' => 'Show Court',
+        'inputs' => [
+            'name' => 'Name',
+            'city' => 'City',
+            'state' => 'State',
+            'zipcode' => 'Zipcode',
+            'case1_id' => 'Case1',
+        ],
+    ],
+
+    'documents' => [
+        'name' => 'Documents',
+        'index_title' => 'Documents List',
+        'new_title' => 'New Document',
+        'create_title' => 'Create Document',
+        'edit_title' => 'Edit Document',
+        'show_title' => 'Show Document',
+        'inputs' => [
+            'caseID' => 'Case Id',
+            'documentType' => 'Document Type',
+            'dateFiled' => 'Date Filed',
+            'description' => 'Description',
+            'case1_id' => 'Case1',
+        ],
+    ],
+
+    'events' => [
+        'name' => 'Events',
+        'index_title' => 'Events List',
+        'new_title' => 'New Event',
+        'create_title' => 'Create Event',
+        'edit_title' => 'Edit Event',
+        'show_title' => 'Show Event',
+        'inputs' => [
+            'caseID' => 'Case Id',
+            'eventType' => 'Event Type',
+            'date' => 'Date',
+            'time' => 'Time',
+            'location' => 'Location',
+            'outcome' => 'Outcome',
+            'case1_id' => 'Case1',
+        ],
+    ],
+
+    'attorneys' => [
+        'name' => 'Attorneys',
+        'index_title' => 'Attorneys List',
+        'new_title' => 'New Attorney',
+        'create_title' => 'Create Attorney',
+        'edit_title' => 'Edit Attorney',
+        'show_title' => 'Show Attorney',
+        'inputs' => [
+            'name' => 'Name',
+            'address' => 'Address',
+            'city' => 'City',
+            'state' => 'State',
+            'zipcode' => 'Zipcode',
+            'case1_id' => 'Case1',
+        ],
+    ],
+
+    'bars' => [
+        'name' => 'Bars',
+        'index_title' => 'Bars List',
+        'new_title' => 'New Bar',
+        'create_title' => 'Create Bar',
+        'edit_title' => 'Edit Bar',
+        'show_title' => 'Show Bar',
+        'inputs' => [
+            'attorneyID' => 'Attorney Id',
+            'bar' => 'Bar',
+            'attorney_id' => 'Attorney',
+        ],
+    ],
+
+    'specialities' => [
+        'name' => 'Specialities',
+        'index_title' => 'Specialities List',
+        'new_title' => 'New Speciality',
+        'create_title' => 'Create Speciality',
+        'edit_title' => 'Edit Speciality',
+        'show_title' => 'Show Speciality',
+        'inputs' => [
+            'attorneyID' => 'Attorney Id',
+            'speciality' => 'Speciality',
+            'attorney_id' => 'Attorney',
+        ],
+    ],
+
+    'judges' => [
+        'name' => 'Judges',
+        'index_title' => 'Judges List',
+        'new_title' => 'New Judge',
+        'create_title' => 'Create Judge',
+        'edit_title' => 'Edit Judge',
+        'show_title' => 'Show Judge',
+        'inputs' => [
+            'name' => 'Name',
+            'years' => 'Years',
+            'courtID' => 'Court Id',
+            'court_id' => 'Court',
+        ],
+    ],
+
+    'retains' => [
+        'name' => 'Retains',
+        'index_title' => 'Retains List',
+        'new_title' => 'New Retain',
+        'create_title' => 'Create Retain',
+        'edit_title' => 'Edit Retain',
+        'show_title' => 'Show Retain',
+        'inputs' => [
+            'attorneyID' => 'Attorney Id',
+            'caseID' => 'Case Id',
+            'emplooyID' => 'Emplooy Id',
+            'date' => 'Date',
+            'case1_id' => 'Case1',
+            'attorney_id' => 'Attorney',
+            'employee_id' => 'Employee',
+        ],
+    ],
+
+    'roles' => [
+        'name' => 'Roles',
+        'index_title' => 'Roles List',
+        'create_title' => 'Create Role',
+        'edit_title' => 'Edit Role',
+        'show_title' => 'Show Role',
+        'inputs' => [
+            'name' => 'Name',
+        ],
+    ],
+
+    'permissions' => [
+        'name' => 'Permissions',
+        'index_title' => 'Permissions List',
+        'create_title' => 'Create Permission',
+        'edit_title' => 'Edit Permission',
+        'show_title' => 'Show Permission',
+        'inputs' => [
+            'name' => 'Name',
+        ],
+    ],
+];
